@@ -4,14 +4,14 @@
 function [] = fallidentification()
 
 % reading the FALL video
-vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/fall.mp4");
+vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/testing/fall.mp4");
 
 % Uncomment the below line for reading the NO FALL video
-% vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/no fall.avi");
+% vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/testing/no fall.avi");
 
 
 % Uncomment the below line for reading the NO Human video
-% vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/no human.mp4");
+% vid = vision.VideoFileReader("/Users/nilavarasisivasankaran/Documents/MATLAB/Human Fall Identification System/testing/no human.mp4");
 
 
 % initializing foreground and blob detectors
